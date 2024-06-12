@@ -1,4 +1,4 @@
-For experiments involving LLMs
+This repository contains data and code for experiments described in the paper <to be disclosed after publication>. For experiments involving LLMs
 
 We have provided sentiment and emotion annotated datasets, 500 samples from each dataset were randomly selected, with the exception of the Politifact dataset, which contains 432 samples. It is important to note that all the samples in all the datasets are from misinformation (rumour) class.
 
@@ -10,4 +10,6 @@ We also provide original and corrupted SNOPES dataset on which we ran the second
 
 Also, code to calculate linguistics aspects such as abstractness, concreteness and Named Entity Ratio as well as the readability scores are also provided.
 
-We provide the code for ML-based classifiers and BERT embeddings generation, as discussed in the appendix. All the datasets used are publicly available, allowing readers to download them and select the first 1000 samples from each class (rumor/fake and non-rumor/real) for training the ML classifiers. For testing, please use the dataset provided in the annotated data section. (please note that the embeddings file size is substantial hence not provided.)
+We provide the code for ML-based classifiers and BERT embeddings generation, as discussed in the appendix of the paper. All the datasets used are publicly available, allowing readers to download them and select the first 1000 samples from each class (rumor/fake and non-rumor/real) for training the ML classifiers. For testing, please use the dataset provided in the annotated data section. ( (please note that the embeddings file size is quite large hence is not provided here.)
+
+
