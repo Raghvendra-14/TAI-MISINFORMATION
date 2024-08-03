@@ -1,7 +1,7 @@
 
 # Repository Overview
 
-This repository houses the data and code for the experiments detailed in the paper *Accepted in IEEE TAI (CURRENTLY IN PUBLICATION PHASE)*. It includes resources for experimenting with Large Language Models (LLMs) as follows:
+This repository houses the data and code for the experiments detailed in the paper titled "Silver Lining in the Fake News Cloud: Can Large Language Models Help Detect Misinformation?" *Accepted in IEEE TAI (CURRENTLY IN PUBLICATION PHASE)*. It includes resources for experimenting with Large Language Models (LLMs) as follows:
 
 ## Datasets
 
