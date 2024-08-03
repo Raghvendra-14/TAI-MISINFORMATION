@@ -1,15 +1,27 @@
-This repository contains data and code for experiments described in the paper <to be disclosed after publication>. For experiments involving LLMs
 
-We have provided sentiment and emotion annotated datasets, 500 samples from each dataset were randomly selected, with the exception of the Politifact dataset, which contains 432 samples. It is important to note that all the samples in all the datasets are from misinformation (rumour) class.
+# Repository Overview
 
-We also provide the models we used for sentiment (VADER) and emotion (DistilRoberta-base) annotation.
+This repository houses the data and code for the experiments detailed in the paper *Accepted in IEEE TAI (CURRENTLY IN PUBLICATION PHASE)*. It includes resources for experimenting with Large Language Models (LLMs) as follows:
 
-Additionally, from the extensive set of experiments, we evaluated a combination of 4 different LLMs across 2 different prompt settings (few-shot and zero-shot) and with or without the inclusion of sentiments and emotions. This resulted in 16 combinations per dataset, and with 6 datasets, a total of 96 experimental configurations were tested. For each of these configurations, we provide at least one instance of each LLM with the varying prompt settings and sentiment & emotion conditions. These configurations are designed to be flexible, allowing for minimal modifications to adapt to any required experimental setup.
+## Datasets
 
-We also provide original and corrupted SNOPES dataset on which we ran the second part of our experiment along with our iterative based corruption of news articles using GPT-3.5. 
+- **Sentiment and Emotion Annotated Datasets**: We provide sentiment and emotion annotated datasets, with 500 samples randomly selected from each dataset, except the Politifact dataset, which includes 432 samples. All samples are classified under the misinformation (rumour) category.
 
-Also, code to calculate linguistics aspects such as abstractness, concreteness and Named Entity Ratio as well as the readability scores are also provided.
+## Models
 
-We provide the code for ML-based classifiers and BERT embeddings generation, as discussed in the appendix of the paper. All the datasets used are publicly available, allowing readers to download them and select the first 1000 samples from each class (rumor/fake and non-rumor/real) for training the ML classifiers. For testing, please use the dataset provided in the annotated data section. ( (please note that the embeddings file size is quite large hence is not provided here.)
+- **Sentiment and Emotion Annotation Models**: Included are the models used for sentiment annotation (VADER) and emotion annotation (DistilRoberta-base).
 
+## Experimental Configurations
+
+- **LLM Experimentation**: We conducted a comprehensive evaluation involving 4 different LLMs across 2 prompt settings (few-shot and zero-shot), with and without sentiment and emotion annotations. This resulted in 16 combinations per dataset, totaling 96 experimental configurations across 6 datasets. For each configuration, we provide at least one instance of each LLM with the varied prompt settings and sentiment & emotion conditions. These configurations are designed for flexibility and can be easily adapted to different experimental setups.
+
+## Additional Resources
+
+- **SNOPES Dataset**: We offer both the original and corrupted versions of the SNOPES dataset, used in the second phase of our experiments. The corruption process was performed using GPT-3.5.
+
+- **Linguistic Analysis Code**: Code for calculating linguistic aspects such as abstractness, concreteness, Named Entity Ratio, and readability scores is included.
+
+- **ML Classifiers and BERT Embeddings**: The repository contains code for machine learning classifiers and BERT embeddings generation, as detailed in the paper's appendix. All datasets used are publicly available. Readers can download these datasets and select the first 1000 samples from each class (rumor/fake and non-rumor/real) for training the classifiers. For testing, please use the datasets provided in the annotated data section.
+
+# CITATION BIBTEX TO BE ADDED SOON
 
