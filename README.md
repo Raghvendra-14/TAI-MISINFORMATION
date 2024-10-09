@@ -23,5 +23,17 @@ This repository houses the data and code for the experiments detailed in the pap
 
 - **ML Classifiers and BERT Embeddings**: The repository contains code for machine learning classifiers and BERT embeddings generation, as detailed in the paper's appendix. All datasets used are publicly available. Readers can download these datasets and select the first 1000 samples from each class (rumor/fake and non-rumor/real) for training the classifiers. For testing, please use the datasets provided in the annotated data section.
 
-# CITATION BIBTEX TO BE ADDED SOON
+## please use below citation
 
+```
+@ARTICLE{10631663,
+  author={Kumar, Raghvendra and Goddu, Bhargav and Saha, Sriparna and Jatowt, Adam},
+  journal={IEEE Transactions on Artificial Intelligence}, 
+  title={Silver Lining in the Fake News Cloud: Can Large Language Models Help Detect Misinformation?}, 
+  year={2024},
+  volume={},
+  number={},
+  pages={1-11},
+  keywords={Fake news;Social networking (online);Large language models;Task analysis;Chatbots;Linguistics;Blogs;Fake News;Large Language Models (LLMs);Misinformation Detection;Prompting Techniques;Rumour News;Sentiment and Emotion},
+  doi={10.1109/TAI.2024.3440248}}
+```
